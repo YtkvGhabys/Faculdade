@@ -8,98 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
-    
-    <style>
-        /* Reset padrão para evitar espaços extras indesejados */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            margin: 40px 15%;
-            background-color: rgb(226, 238, 247);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 20px;
-            font-family: sans-serif;
-        }
-
-        .cabecalho, .container {
-            background-color: rgb(253, 253, 253);
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-            border-radius: 15px;
-            overflow: hidden;
-        }
-
-        .cabecalho {
-            height: auto;
-            width: 100%;
-        }
-
-        .container {
-            max-width: 1000px;
-            width: 100%;
-            min-height: 36px;
-        }
-
-        img {
-            width: 100%;
-            margin: auto;
-            padding: 10px;
-        }
-        .title {
-            font-family: 'Montserrat', sans-serif;
-            color: #2c3e50;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin: 0 5px;
-            font-size: 80px;
-        }
-
-        h1, h2 {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            color: #2c3e50;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin: 20px 0 10px;
-            text-align: center;
-            margin: 10;
-            text: solid;
-            word-wrap: break-word;
-        }
-
-        h3 {
-            margin-top: 10px;
-            color: #2a5298;
-        }
-
-        p {
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 400;
-            line-height: 1.6; /* Essencial para a leitura não ficar "esmagada" */
-            font-size: 1.1rem;
-            line-height: 1.5;
-            color: #333;
-            text-align: justify;
-            margin: 5px;
-            
-        }
-
-        ul {
-            margin: 5px 12px;
-        }
-
-        li {
-            margin: 5px;
-            text-align: justify;
-            color: #333;
-        }
-    </style>
+<link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
 
@@ -128,7 +37,28 @@
     <p>
         Visando equilibrar o acesso à uma educação de qualidade de forma acessível, existem dversoso programas gratuitos para a população estudar para o colégio, faculdade, exames externos e se profissionalizar. Algumas opções úteis são:
     </p>
-
+        <ul style="list-style-type: none;">
+        <li>
+            <a href="https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/aprendizagem-profissional" target="_blank" style="color: #2a5298; text-decoration: none; font-weight: bold;">
+                Jovem Aprendiz:
+            </a> 
+            Acesse o portal oficial para entender como ingressar no mercado de trabalho com garantia de direitos e formação teórica.
+        </li>
+        
+        <li>
+            <a href="https://www.mundosenai.com.br/" target="_blank" style="color: #2a5298; text-decoration: none; font-weight: bold;">
+                Ensino Técnico (SENAI):
+            </a> 
+            Explore cursos profissionalizantes de curta duração que conectam você diretamente com as demandas da indústria.
+        </li>
+        
+        <li>
+            <a href="https://plataforma.prouni.mec.gov.br/" target="_blank" style="color: #2a5298; text-decoration: none; font-weight: bold;">
+                ProUni e Bolsas de Estudo:
+            </a> 
+            Saiba como utilizar sua nota do Enem para conseguir bolsas em faculdades particulares e impulsionar sua carreira acadêmica.
+        </li>
+        </ul>
         <h2>Como exercer a cidadania como jovem?</h2>
         <p>
             A cidadania parece, a princípio um conceito abstrato, cotudo, ela nada mais é que a execução de um Estado de direito. O jovem deve desfrutar de seus deveres e de seus direitos, ser ativo em lutas socias que compactuam com o bem comum, cumprir com suas obrigações políticas e zelar por sua comunidade.
@@ -138,30 +68,8 @@
             O Estatuto da Criança e do Adolescente é responsável por estipular os 
             direitos e deveres dessa parcela social. Alguns exemplos deles são:
         </p>
-        <ul>
-    <li>
-        <a href="https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/aprendizagem-profissional" target="_blank" style="color: #2a5298; text-decoration: none; font-weight: bold;">
-            1. Jovem Aprendiz:
-        </a> 
-        Acesse o portal oficial para entender como ingressar no mercado de trabalho com garantia de direitos e formação teórica.
-    </li>
-    
-    <li>
-        <a href="https://www.mundosenai.com.br/" target="_blank" style="color: #2a5298; text-decoration: none; font-weight: bold;">
-            2. Ensino Técnico (SENAI):
-        </a> 
-        Explore cursos profissionalizantes de curta duração que conectam você diretamente com as demandas da indústria.
-    </li>
-    
-    <li>
-        <a href="https://plataforma.prouni.mec.gov.br/" target="_blank" style="color: #2a5298; text-decoration: none; font-weight: bold;">
-            3. ProUni e Bolsas de Estudo:
-        </a> 
-        Saiba como utilizar sua nota do Enem para conseguir bolsas em faculdades particulares e impulsionar sua carreira acadêmica.
-    </li>
-</ul>
         <h3>Direitos</h3>
-        <ul>
+        <ul class="ECA">
             <li>Direito à vida e à saúde</li>
             <li>Direito à Educação, Cultura, Esporte e Lazer</li>
             <li>Direito à Liberdade, ao Respeito e à Dignidade</li>
@@ -170,7 +78,7 @@
         </ul>
 
         <h3>Deveres</h3>
-        <ul>
+        <ul class="ECA">
             <li>Respeito a pais, responsáveis e educadores</li>
             <li>Frequência e empenho escolar</li>
             <li>Respeito ao próximo e às diferenças</li>
